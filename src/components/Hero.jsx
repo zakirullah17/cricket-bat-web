@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative bg-gray-900 text-white min-h-screen flex items-center pt-16 md:pt-20">
+    <section id="home" className="relative bg-gray-900  text-white min-h-screen flex items-center pt-16 md:pt-20">
       {/* Background with overlay */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1600&auto=format&fit=crop')] bg-cover bg-center opacity-30"></div>
@@ -23,7 +23,7 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="max-w-2xl"
           >
-            <p className="text-amber-400 font-medium mb-4 tracking-wider">PREMIUM CRICKET EQUIPMENT</p>
+            <p className="text-amber-400 font-medium mb-4 mt-8 tracking-wider">PREMIUM CRICKET EQUIPMENT</p>
             <h1 className="text-4xl sm:text-5xl xl:text-6xl font-bold mb-6 leading-tight">
               <span className="text-amber-400">XYZ</span> Professional <br className="hidden sm:block" /> Cricket Bats
             </h1>
